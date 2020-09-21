@@ -1,0 +1,248 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(235, 235, 228);
+}
+
+#container{
+    width: 30%;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+    margin-top: 13px;
+}
+
+#top{
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#logo{
+ float: left;
+  margin-left: 99px;
+}
+
+#heading{
+   float: right;
+   margin-right: 99px;
+   padding-top: 5px;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 35px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#welcome h3{
+    padding-top: 15px;
+     text-align: center;
+     font-family: sans-serif;
+
+}
+
+#facebook{
+ width: 82%;
+ height: 40px;
+ border: 7px;
+ padding-top: 4px;
+ margin-top: 20px;
+ margin-left: 35px;
+ text-align: center;
+ background-color:  #2952a3;
+
+
+
+}
+
+#fb-icon{
+ width: 10%;
+ float: left;
+ margin-left: 0px;
+ padding-left: 40px;
+ padding-top: 3px;
+}
+
+#fb-icon img{
+    width: 35px;
+    height: 30px;
+    background-color:  #2952a3;   
+}
+
+#fb-text{
+    padding-top: 7px;
+}
+
+#fb-text a{
+    margin-right: 20px;
+    color:white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+   
+}
+
+#fb-text p{
+    width: 70%;
+    float: right;
+    padding-top: 6px;
+    /* border: goldenrod solid; */
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+#or{
+    width: 82%;
+ padding-top: 20px;
+ display: inline-block;
+ text-align: center;
+ margin-left: 35px;
+ color: grey;
+ margin-bottom: 30px;
+}
+
+input{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 82%;
+    height: 50px;
+    margin-left: 35px;
+    outline: none;
+   
+}
+
+input::placeholder{
+    padding-left: 15px;
+}
+
+input:hover{
+     border-color:  #66c2ff;
+}
+
+#check{
+    width: 82%;
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 30px;
+}
+
+#box{
+    float: left;
+    padding-right: 50px;
+    margin-left: -30px;  
+}
+
+#box a{
+    text-decoration: none;
+    color: black;
+}
+
+input#boxy{
+    width: 15px; 
+    height: 15px; 
+}
+
+input#boxy:hover{
+    background-color: #2952a3;
+}
+
+
+#forgot{
+   float: right;
+   margin-top: 11px;
+}
+
+#forgot a{
+    text-decoration: none;
+    color: blue;
+}
+
+#forgot a:hover{
+    text-decoration: underline;
+}
+
+#log{
+    width: 82%;
+    height: 40px;
+    background-color: #0099ff;
+    text-align: center;
+    margin: auto;
+    padding-top: 3px;
+}
+#log a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#log:hover{
+  background-color: #007acc;
+}
+
+#break{
+    width: 82%;
+    margin:auto;
+    color: rgb(121, 121, 121);
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+#dont{
+width: 70%;
+height: 20px;
+margin-left: 30px;
+margin-left: 90px;
+}
+
+#dont p{
+
+ float: left;
+}
+
+#dont a{
+  text-decoration: none;
+  color: blue;
+  float: right;
+ margin-right: 75px;
+}
+
+#dont a:hover{
+ text-decoration: underline;
+}
+
+#store{
+ width: 100%;
+ display: inline-block;
+
+}
+
+#applestore img{
+    width: 30%;
+    height: 152px;
+    float: left;
+    margin-left: 70px;
+    margin-top: -30px;
+    border-radius: 5px;
+    
+
+}
+
+#playstore img{
+  width: 30%;
+  height: 48px;
+  float: right;
+  margin-top: 22px;
+  margin-right: 80px;
+}
